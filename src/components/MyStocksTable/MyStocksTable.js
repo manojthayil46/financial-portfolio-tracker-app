@@ -11,13 +11,7 @@ class MyStocksTable extends Component {
 
 
     componentDidMount(){
-      axios.get('https://financialtracker-db23c.firebaseio.com/users.json').then(response =>{
-                console.log(response.data);
-
-                this.setState({
-                    table_data : response.data
-                });
-            }); 
+      this.getData();
     }
 
     
