@@ -96,7 +96,7 @@ class Modal extends Component {
                             
                         </form>
                        
-                        <button type='button' className='btn btn-primary' id='addForm' onClick={this.addStock}>Add</button>
+                        <button type='button' className='AddButton' id='addForm' onClick={this.addStock}>Add</button>
                        <button type="button" className='closeButton' style={{backgroundColor:"red",height:"40px",textAlign:"center",padding:"5px",color:"white",borderRadius:"2px"}} id="closeBtn" onClick={this.closeModal}>Close</button><br/><br/>
                        <div id="errorMsg"></div>
                  </div>
